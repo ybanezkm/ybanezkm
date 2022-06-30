@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef1571087b.js" crossorigin="anonymous"></script>
+    <title>Kistine Mae</title>
+</head>
+<body>
+    <div class="content-wrapper">
+        <header id="header">
+            <div class="logo">Kristine Ybañez</div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div id="burger" onclick="openSide()">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </header>
+        <section id="home">
+            <div id="kristine"><img src="assets/kristine.png" alt=""></div>
+            <div id="links-container">
+                <a href="https://web.facebook.com/kristineybanez13" target="_blank">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/kristinemae804/" target="_blank">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+                <a href="https://www.tiktok.com/@skky_16143?" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            <div id="sidebar">
+                <div id="side-link-wrapper">
+                    <a href="#home" onclick="closeSide()">home</a>
+                    <a href="#about" onclick="closeSide()">about</a>
+                    <a href="#certificates" onclick="closeSide()">certificates</a>
+                    <a href="#contact" onclick="closeSide()">contact</a>
+                </div>
+                <i class="fa-solid fa-xmark" onclick="closeSide()"></i>
+            </div>
+            <div class="message">
+                <h1>Hi, I'm Kristine</h1>
+            </div>
+        </section>
+        <section id="about">
+            <div id="center-line">
+                <div id="points">
+                    <div class="point">
+                        <div class="anchor-line"></div>
+                        <div class="tags about-tag">
+                            <div class="tag right">
+                                about me
+                            </div>
+                            <div class="desc left">
+                                I am Kristine Mae Ybañez 21 years of age. I'm currently
+                                living in Clarin, Bohol, Philippines.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="anchor-line"></div>
+                        <div class="tags educ-tag">
+                            <div class="tag left">
+                                education
+                            </div>
+                            <div class="desc right">
+                                I'm a 3rd year student taking up Bachelor of Science in Computer
+                                Science in Bohol Island State University - Clarin Campus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="anchor-line"></div>
+                        <div class="tags interests-tag">
+                            <div class="tag right">
+                                interests
+                            </div>
+                            <div class="desc left">
+                                I want to be engaged in any activities which encourages 
+                                potentials and interest. I'm also into cooking, singing and painting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="anchor-line"></div>
+                        <div class="tags strengths-tag">
+                            <div class="tag left">
+                                strenghts
+                            </div>
+                            <div class="desc right">
+                                One of my personal strength is being able to forgive. 
+                                For me, forgiveness is the key towards a positive 
+                                outcome in a relationship or connection.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="anchor-line"></div>
+                        <div class="tags quote-tag">
+                            <div class="tag right">
+                                quote
+                            </div>
+                            <div class="desc left">
+                                One of my favorite quotes is "Focus on the step in 
+                                front of you, not the whole staircase."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certificates">
+            <div id="coconut">
+                <img src="assets/coconut.png" alt="">
+            </div>
+            
+            <div id="certificates-wrapper">
+                <div class="cert-title">my certificates</div>
+                <img src="assets/html.jpg" alt="" id="cert1">
+                <img src="assets/css.jpg" alt="" id="cert2">
+                <img src="assets/javascript.jpg" alt="" id="cert3">
+                <img src="assets/python.jpg" alt="" id="cert4">
+                <img src="assets/php.jpg" alt="" id="cert5">
+                <img src="assets/responsive.jpg" alt="" id="cert6">
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact-wrapper">
+                <div id="line"></div>
+                <div id="contact-photo">
+                    <img src="assets/contact-photo.jpg" alt="">
+                </div>
+                <div id="head">
+                    <h1>get in touch!</h1>
+                    <h4>message me and let's work together</h4>
+                </div>
+                
+                <div id="accounts">
+                    <div id="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info">
+                            Mataub,Clarin,Bohol <br>
+                            Zip code : 6330
+                        </div>
+                    </div>
+                    <div id="gmail">
+                        <i class="fa-solid fa-envelope" ></i>
+                        <div class="info">
+                            kristinemaey@gmail.com
+                            kristinemae.ybañez@bisu.edu.ph
+                        </div>
+                    </div>
+                    <div id="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <div id="phone-desc" class="info">
+                            +639387165632 <br>
+                            +639223753920
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
